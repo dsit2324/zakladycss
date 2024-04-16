@@ -54,8 +54,7 @@ h2 {
 
 h3 { 
   font-size: 1.2em;
-  text-decoration: underline dotted;
-  text-decoration-color: inherit;
+  border-bottom: 1px dotted rgb(102, 153, 0);
 }
 
 p, li {
@@ -73,24 +72,43 @@ li {
   margin-left: 20px;
 }
 
-/* Nastavte pravidlo pro v�echny tu�n� a mod�e zv�razn�n� texty v odr�k�ch. */
+strong{
+  font-weight: bold;
+  color: rgb(0,153,204);
+}
 
-/* Nastavte pravidlo pro v�echny odstavce-pozn�mky: 
-    * na lev�m okraji bude �ed� ohrani�en� 10px siln�
-    * text bude zleva odsazen o 50 pixel�
-    * pou�it� font bude o 10% men�� ne� z�kladn� p�smo
-    * p�smo bude naklon�n� (kurz�va)
-*/
+strong.big {
+  font-weight: bold;
+  color: black;
+}
+
+mark {
+  background-color: rgb(102,153,0);
+  color: white;
+}
+
+abbr {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: red;
+}
+
+code {
+  font-family: "Courier New", monospace;
+}
 
 footer {
   color: gray;
   margin: 10px auto;
-  /* Z�pat� bude zarovn�no na st�ed */
   font-size: 80%;
+  text-align: center;
 }
 
-strong {
-  font-weight: bold;
+p.poznamka {
+  border-left: 10px solid gray;
+  padding-left: 50px;
+  font-size: 90%;
+  font-style: italic;
 }
 
 
