@@ -37,7 +37,7 @@ h1 {
   text-align: center; 
   font-size: 2em; 
   font-weight: bold; 
-  color: inherit; 
+  color: rgb(0,153,204);; 
   text-transform: uppercase;
   line-height: 2em;
 }
@@ -112,6 +112,4 @@ p.poznamka {
 }
 
 
-/* Nastavte pravidla pro zna�ky vlo�en� do textu �vodn�ho odstavce,
-   aby kone�n� vzheld textu odpov�dal p�edloze. */
 
